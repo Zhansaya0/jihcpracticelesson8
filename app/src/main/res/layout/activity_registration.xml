@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+android:orientation="vertical"
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:layout_margin="10dp"
+tools:context=".RegistrationActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/logotype"
+        />
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter name"
+        />
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter email"
+        android:inputType="textEmailAddress"
+        />
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="enter password"
+        />
+
+    <Button
+        android:id="@+id/btn_tirkelu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Тіркелу"
+        />
+</LinearLayout>
